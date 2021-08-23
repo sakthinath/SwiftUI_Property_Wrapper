@@ -13,6 +13,13 @@
 		8461120426D45A8000F214F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8461120326D45A8000F214F9 /* Preview Assets.xcassets */; };
 		8461120F26D45A8000F214F9 /* SwiftUI_WrappersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461120E26D45A8000F214F9 /* SwiftUI_WrappersTests.swift */; };
 		8461121A26D45A8000F214F9 /* SwiftUI_WrappersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461121926D45A8000F214F9 /* SwiftUI_WrappersUITests.swift */; };
+		8461122E26D45A9D00F214F9 /* ObesrevedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461122826D45A9D00F214F9 /* ObesrevedObject.swift */; };
+		8461122F26D45A9D00F214F9 /* JustSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461122926D45A9D00F214F9 /* JustSampleView.swift */; };
+		8461123026D45A9D00F214F9 /* ObservedObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461122A26D45A9D00F214F9 /* ObservedObjectExample.swift */; };
+		8461123126D45A9D00F214F9 /* StateObjectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461122B26D45A9D00F214F9 /* StateObjectExample.swift */; };
+		8461123226D45A9D00F214F9 /* StateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461122C26D45A9D00F214F9 /* StateProperty.swift */; };
+		8461123326D45A9D00F214F9 /* StatePropertyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461122D26D45A9D00F214F9 /* StatePropertyExample.swift */; };
+		8461123726D45B0300F214F9 /* EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461123626D45B0300F214F9 /* EnvironmentObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		8461121526D45A8000F214F9 /* SwiftUI WrappersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI WrappersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8461121926D45A8000F214F9 /* SwiftUI_WrappersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WrappersUITests.swift; sourceTree = "<group>"; };
 		8461121B26D45A8000F214F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8461122826D45A9D00F214F9 /* ObesrevedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObesrevedObject.swift; sourceTree = "<group>"; };
+		8461122926D45A9D00F214F9 /* JustSampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustSampleView.swift; sourceTree = "<group>"; };
+		8461122A26D45A9D00F214F9 /* ObservedObjectExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservedObjectExample.swift; sourceTree = "<group>"; };
+		8461122B26D45A9D00F214F9 /* StateObjectExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateObjectExample.swift; sourceTree = "<group>"; };
+		8461122C26D45A9D00F214F9 /* StateProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateProperty.swift; sourceTree = "<group>"; };
+		8461122D26D45A9D00F214F9 /* StatePropertyExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatePropertyExample.swift; sourceTree = "<group>"; };
+		8461123626D45B0300F214F9 /* EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +109,7 @@
 		846111FB26D45A7D00F214F9 /* SwiftUI Wrappers */ = {
 			isa = PBXGroup;
 			children = (
+				8461122726D45A8A00F214F9 /* Source */,
 				846111FC26D45A7D00F214F9 /* SwiftUI_WrappersApp.swift */,
 				846111FE26D45A7D00F214F9 /* ContentView.swift */,
 				8461120026D45A8000F214F9 /* Assets.xcassets */,
@@ -128,6 +143,20 @@
 				8461121B26D45A8000F214F9 /* Info.plist */,
 			);
 			path = "SwiftUI WrappersUITests";
+			sourceTree = "<group>";
+		};
+		8461122726D45A8A00F214F9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8461122926D45A9D00F214F9 /* JustSampleView.swift */,
+				8461122826D45A9D00F214F9 /* ObesrevedObject.swift */,
+				8461122A26D45A9D00F214F9 /* ObservedObjectExample.swift */,
+				8461122B26D45A9D00F214F9 /* StateObjectExample.swift */,
+				8461122C26D45A9D00F214F9 /* StateProperty.swift */,
+				8461122D26D45A9D00F214F9 /* StatePropertyExample.swift */,
+				8461123626D45B0300F214F9 /* EnvironmentObject.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +289,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				846111FF26D45A7D00F214F9 /* ContentView.swift in Sources */,
+				8461122E26D45A9D00F214F9 /* ObesrevedObject.swift in Sources */,
+				8461123226D45A9D00F214F9 /* StateProperty.swift in Sources */,
+				8461122F26D45A9D00F214F9 /* JustSampleView.swift in Sources */,
+				8461123126D45A9D00F214F9 /* StateObjectExample.swift in Sources */,
+				8461123726D45B0300F214F9 /* EnvironmentObject.swift in Sources */,
 				846111FD26D45A7D00F214F9 /* SwiftUI_WrappersApp.swift in Sources */,
+				8461123026D45A9D00F214F9 /* ObservedObjectExample.swift in Sources */,
+				8461123326D45A9D00F214F9 /* StatePropertyExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

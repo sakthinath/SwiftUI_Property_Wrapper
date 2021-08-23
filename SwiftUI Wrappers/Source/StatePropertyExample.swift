@@ -2,7 +2,7 @@
 //  StatePropertyExample.swift
 //  State Property
 //
-//  Created by Sathyanath Banka on 22/08/21.
+//  Created by Sathyanath on 22/08/21.
 //
 
 import SwiftUI
@@ -12,9 +12,9 @@ struct StatePropertyExample: View {
     var body: some View {
         Button("State Count\(stateProperty.number)") {
             stateProperty.number += 1
-            print("Observed Object Counts \(stateProperty.number)")
+            print("State Counts \(stateProperty.number)")
         }.onChange(of: "", perform: { value in
-            print("Observed Object Counts \(stateProperty.number)")
+            print("State Counts \(stateProperty.number)")
         })
     }
 }

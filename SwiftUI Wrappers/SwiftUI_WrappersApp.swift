@@ -2,16 +2,17 @@
 //  SwiftUI_WrappersApp.swift
 //  SwiftUI Wrappers
 //
-//  Created by Admin on 24/08/21.
+//  Created by Sathyanath on 24/08/21.
 //
 
 import SwiftUI
 
 @main
 struct SwiftUI_WrappersApp: App {
+    @StateObject var observedObject = ObservedObjectProperty()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(observedObject)
         }
     }
 }

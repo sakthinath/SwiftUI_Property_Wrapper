@@ -2,7 +2,7 @@
 //  ObesrevedObject.swift
 //  State Property
 //
-//  Created by Sathyanath Banka on 24/08/21.
+//  Created by Sathyanath  on 24/08/21.
 //
 
 import SwiftUI

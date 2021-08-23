@@ -2,7 +2,7 @@
 //  StatePropertyObject.swift
 //  State Property
 //
-//  Created by Sathyanath Banka on 22/08/21.
+//  Created by Sathyanath on 22/08/21.
 //
 
 import SwiftUI

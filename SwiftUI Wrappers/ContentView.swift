@@ -2,15 +2,25 @@
 //  ContentView.swift
 //  SwiftUI Wrappers
 //
-//  Created by Admin on 24/08/21.
+//  Created by Sathyanath on 24/08/21.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    var listView: some View {
+        VStack {
+            StatePropertyExample()
+            StateObjectExample()
+            ObesrevedObject()
+            EnvironmentObjectView()
+        }
+    }
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            listView
+        }
     }
 }
 
